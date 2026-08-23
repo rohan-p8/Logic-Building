@@ -6,4 +6,3 @@ elif no < 0:
     print(f"{no} is negative numebr")
 else:
     print(f"{no} is zero number")
-

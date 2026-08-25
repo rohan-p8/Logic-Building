@@ -16,3 +16,4 @@ for i in range(n):
     sum = sum + l1[i]
 
 print("Sum of all elemets are: ", sum)
+

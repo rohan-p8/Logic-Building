@@ -13,9 +13,13 @@ print(f"\nGiven list is: ", list1)
 k = int(input("Enter a no. to check greater no. than this: "))
 greater = []
 
-for i in range(len(list1)):
-    if list1[i] > k:
-        greater.append(list1[i])
+# for i in range(len(list1)):
+#     if list1[i] > k:
+#         greater.append(list1[i])
+
+for item in list1:
+    if item > k:
+        greater.append(item)
 
 print(f"\nElements Greater than {k} are: {greater}")
 

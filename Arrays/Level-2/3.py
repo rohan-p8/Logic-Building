@@ -6,7 +6,7 @@ print("Given list: ", list1)
 n = int(input("\nEnter element to find: "))
 
 if n in list1:
-	print(f"{n} is found at index {list1.index(n)}")
+	print(f"First occurrence of {n} is found at index {list1.index(n)}")
 else:
 	print(f"{n} is not present in the list")
 

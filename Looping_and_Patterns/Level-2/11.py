@@ -7,6 +7,7 @@ n1, n2 = 0, 1
 
 for _ in range(terms):
 	arr.append(n1)
+
 	n1, n2 = n2, n1 + n2
 
 print(arr)

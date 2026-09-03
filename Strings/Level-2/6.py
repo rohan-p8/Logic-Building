@@ -12,5 +12,5 @@ for item in newStr:
 	if item == char:
 		count += 1
 
-print(count)
+print(f"Count of '{char}' in above string: {count}")
 

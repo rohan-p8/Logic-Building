@@ -3,7 +3,7 @@ import math
 
 def isPerfectSquare(n):
 
-	if n <= 0:
+	if n < 0:
 		return False
 
 	else:

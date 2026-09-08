@@ -14,3 +14,4 @@ for num in arr:
 
 print(f"\nNew list: ", newArr)
 
+

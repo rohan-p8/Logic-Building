@@ -12,5 +12,5 @@ if len(lst) > 1:
 
 	lst[-1] = first
 
-print(lst)
+print("Rotated left by 1 position: ",lst)
 

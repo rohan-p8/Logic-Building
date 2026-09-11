@@ -1,6 +1,6 @@
 # Reverse a string without using built-in reverse. 
 
-str1 = input("Enter a string to become reveser: ")
+str1 = input("Enter a string to become reverse: ")
 rev = ""
 
 for i in range(len(str1) - 1, -1, -1):

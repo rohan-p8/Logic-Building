@@ -1,19 +1,14 @@
 # Reverse the order of words in a sentence. 
 
-str1 = input("Enter sentence to change order of words: ")
-newStr = str1.split()
+str1 = input("Enter sentence to change order of words: ").split()
+# str1 = "Hello rohan".split()
 
-order = ""
+newStr = ""
+revOrder = ""
 
-for word in newStr:
+for i in range(len(str1) -1, -1, -1):
 
-	rev = ""
+	newStr += str1[i] + " "
 
-	for i in range(len(word) - 1, -1, -1):
-
-		rev += word[i]
-
-	order += rev + " "
-
-print(f"\nReverse order of words: {order}")
+print(f"\nReverse order of words: {newStr}")
 

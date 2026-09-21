@@ -1,15 +1,14 @@
 # Take a weekday number (1–7) and determine if it is a weekday or weekend.
 
-weekday = input("Enter weekday number (1-7): ")
+weekday = input("Enter weekday number (1-7): ").strip()
 
-weeks = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+if weekday in {"1","2","3","4","5"}:
+	print("\nWeekday")
 
-for i in range(1, len(weekday) + 1):
+elif weekday in {"6","7"}:
+	print("\nWeekend")
 
-	# if len(weekday) == 1 and weekday.isdigit():
+else:
+	print("\nEnter valid weekday number (1-7)")
 
-	# 	print(weeks[int(weekday)])
-	# 	break;
-	print(weeks[i])
-
-
+	

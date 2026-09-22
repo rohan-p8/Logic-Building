@@ -1,0 +1,3 @@
+# Print Four Stars (****) 
+
+print("****")

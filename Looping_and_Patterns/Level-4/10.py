@@ -1,4 +1,4 @@
-# Print a Centered Pyramid of  Odd number of stars Stars.
+# Print a Centered Pyramid of Odd number of stars.
 
 n = int(input("Enter number of rows: "))
 
@@ -11,4 +11,3 @@ for i in range(1, n + 1):
 		print("*", end = " ")
 
 	print()
-	

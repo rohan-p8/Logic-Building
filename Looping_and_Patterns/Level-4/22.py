@@ -1,4 +1,4 @@
-# Print centered triangle pattern of alphabets: (A,BC,DEF,GHIJ) back to 'A'
+# Centered triangle pattern: (A,BC,DEF,GHIJ) back to 'A'
 
 n = int(input("Enter number of rows: "))
 

@@ -1,22 +1,11 @@
 # Compare two arrays — check if they contain the same elements (ignore order).
 
-lst1 = [15,34,8,22]
-lst2 = [15,34,8,22]
-match = 0
+lst1 = [15,34,8,22,22]
+lst2 = [34,15,8,22]
 
-if len(lst1) != len(lst2):
-	print("Lists are not equal (lengths differ)!")
-
+if sorted(lst1) == sorted(lst2):
+	print("\nLists are equal ")
+	
 else:
-	for item in lst1:
-
-		for i in range(len(lst2)):
-			if item == lst2[i]:
-				match += 1
-
-if match == len(lst1):
-	print("Lists are equal but order is inproper")
-else:
-	print("Lists are not equal")
-
+	print("\nLists are not equal or contain duplicate elements !!")
 

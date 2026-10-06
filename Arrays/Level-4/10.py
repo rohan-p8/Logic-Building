@@ -8,7 +8,6 @@ for num in numbers:
 
 	if num in frequency:
 		frequency[num] += 1
-
 	else:
 		frequency[num] = 1
 
@@ -17,7 +16,6 @@ duplicate = []
 for num, count in frequency.items():
 	if count > 1:
 		duplicate.append(num)
-
 
 print(f"\nElements appearing more than once:", duplicate) 
 

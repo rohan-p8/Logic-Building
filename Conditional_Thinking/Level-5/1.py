@@ -12,3 +12,8 @@ elif x >= 1 and (y > 0 or y < 0):
 
 elif x < 0 and (y > 0 or y < 0):
 	print("At Y-Axis")
+
+else:
+	print("Neither axis")
+
+# Need to check the logic

@@ -7,11 +7,11 @@ y = int(input("Enter y: "))
 if x == 0 and y == 0:
 	print("At the origin")
 
-elif x == 0:
-	print("Lies on Y-Axis")
+elif x >= 1 and (y > 0 or y < 0):
+	print("At X-Axis")
 
-elif y == 0:
-	print("Lies on X-Axis")
+elif x < 0 and (y > 0 or y < 0):
+	print("At Y-Axis")
 
 else:
-	print("Does not lies on X or Y Axis")
+	print("Neither axis")

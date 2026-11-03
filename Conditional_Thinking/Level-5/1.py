@@ -1,6 +1,5 @@
 # Take coordinates (x, y) and check if the point lies on the X-axis, Y-axis, or at the 
 # origin.
-
 x = int(input("Enter x: "))
 y = int(input("Enter y: "))
 
